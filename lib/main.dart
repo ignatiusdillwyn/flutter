@@ -26,7 +26,7 @@ class MainApp extends StatelessWidget {
                         height: 50,
                         color: Colors.red,
                         margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
+                        child: Text('Hello, World!', textAlign: TextAlign.center),
                       ),
                       Container(
                         width: 60,
