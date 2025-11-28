@@ -1,3 +1,4 @@
+//Template
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,69 +17,7 @@ class MainApp extends StatelessWidget {
           child: Builder(
             builder: (context) {
               return Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Row(
-                    children: [
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.red,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.red,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.deepPurpleAccent,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.deepPurpleAccent,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.tealAccent,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                      Container(
-                        width: 60,
-                        height: 50,
-                        color: Colors.tealAccent,
-                        margin: EdgeInsets.all(10),
-                        child: Text('Hello, World!'),
-                      ),
-                    ],
-                  ),
-                  // ElevatedButton(
-                  //   onPressed: () {
-                  //     print('Click!');
-                  //   },
-                  //   child: const Text('A button'),
-                  // ),
-                ],
+                
               );
             },
           ),
